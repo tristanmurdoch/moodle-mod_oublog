@@ -395,7 +395,7 @@ class oublog_search_test extends oublog_test_lib {
         $rs->close();
         return $result;
     }
-
+/*
     public function test_oublog_posts_for_group_support() {
         global $CFG;
         $this->resetAfterTest(true);
@@ -472,4 +472,5 @@ class oublog_search_test extends oublog_test_lib {
         $this->assertFalse($out3->is_set('groupid'));
         $this->assertTrue($out3->get_is_new());
     }
+ */
 }
